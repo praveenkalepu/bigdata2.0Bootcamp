@@ -1,0 +1,28 @@
+#Declare and Assign Variables in Python
+int_var = 10
+float_var = 10.25
+string_var = 'BigDataBootcamp2.0'
+bool_var = True
+
+#Function in Python for output
+#Type Casting in Python
+int_var =  int_var + 10
+int_var
+casted_int_var = str(int_var)
+casted_int_var
+print('int to str type casting converted :', casted_int_var)
+casted_int_var1 = float(int_var)
+casted_int_var1
+print('int to str type casting converted :', casted_int_var1)
+numeric_str = '123'
+numeric_str1 = numeric_str + '50'
+numeric_str1
+print('numeric to str type casting converted:', numeric_str1)
+name = input()
+age = input()
+print('name =', name)
+print('age =', age)
+a = 50
+b = 6
+print(a/b)
+print(a//b)
